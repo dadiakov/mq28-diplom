@@ -36,6 +36,13 @@
               </li>
             </ul>
           </nav>
+          <a href="#0">
+            <div class="menu-tablet">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </a>
         </div>
         <h1 class="main-header-text ttup">Блог о творчестве, спорте, и образе жизни</h1>
       </header>
@@ -385,7 +392,12 @@
         <div class="our-products-cards">
             <article class="our-products-card">
               <div class="card-image">
-                <img class="product-card-img fit-img" src="images/shop-item-desk1.jpg" alt="Подушка со стрелкой">
+                <picture class="product-card-img fit-img">
+                  <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+                  <source media="(max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+                  <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
+                  <img class="product-card-img fit-img" src="images/shop-item-desk1.jpg" alt="Подушка со стрелкой">
+              </picture>
               </div>
                 <div class="our-products-card-content">
                     <header class="product-header ttup">
@@ -407,7 +419,12 @@
 
             <article class="our-products-card">
               <div class="card-image">
-                <img class="product-card-img fit-img" src="images/shop-item-desk2.jpg" alt="Плюшевый зайчик">
+                <picture class="product-card-img fit-img">
+                  <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
+                  <source media="(max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
+                  <source media="(max-width: 640px)" srcset="images/shop-item-mobile2.jpg">
+                  <img class="product-card-img fit-img" src="images/shop-item-desk2.jpg" alt="Плюшевый зайчик">
+              </picture>
               </div>
                 <div class="our-products-card-content">
                     <header class="product-header ttup">
@@ -428,7 +445,12 @@
 
             <article class="our-products-card">
                 <div class="card-image">
-                <img class="product-card-img fit-img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка для фотографий">
+                  <picture class="product-card-img fit-img">
+                    <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
+                    <source media="(max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
+                    <source media="(max-width: 640px)" srcset="images/shop-item-mobile3.jpg">
+                    <img class="product-card-img fit-img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка для фотографий">
+                </picture>
                 </div>
                 <div class="our-products-card-content">
                     <header class="product-header ttup">

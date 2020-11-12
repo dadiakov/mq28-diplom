@@ -345,7 +345,7 @@ article.new-post {
 
 input {
   display: block;
-  width: calc(100% - 60px);
+  width: 100%;
   padding: 15px;
   font-family: inherit;
   background-color: #f4f7f6;
@@ -353,7 +353,7 @@ input {
 }
 
 .search-button {
-  width: 47px;
+  width: 57px;
   background: url(../svg/search.svg) center center no-repeat;
   background-size: 17px;
 }

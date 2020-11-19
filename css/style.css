@@ -459,8 +459,9 @@ form.mailing-form input {
 
 .our-products-card {
   width: 29.4872%;
-  min-height: 440px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-image {
@@ -474,9 +475,9 @@ form.mailing-form input {
 .our-products-card-content {
   border: 3px solid #b59f5b;
   padding: 10px 7% 28px 7%;
-  min-height: 263px;
   position: relative;
   top: -25px;
+  flex-grow: 1;
 }
 
 .product-header h2 {
